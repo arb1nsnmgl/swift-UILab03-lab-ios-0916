@@ -35,6 +35,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A78940E21D79AF5300AB428F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7262DAA1D176C34009620C4 /* AppDelegate.swift */,
+				B7262DB11D176C34009620C4 /* Assets.xcassets */,
+				B7262DB31D176C34009620C4 /* LaunchScreen.storyboard */,
+				B7262DB61D176C34009620C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B7262D9E1D176C34009620C4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +65,9 @@
 		B7262DA91D176C34009620C4 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				B7262DAA1D176C34009620C4 /* AppDelegate.swift */,
+				A78940E21D79AF5300AB428F /* Supporting Files */,
 				B7262DAC1D176C34009620C4 /* ViewController.swift */,
 				B7262DAE1D176C34009620C4 /* Main.storyboard */,
-				B7262DB11D176C34009620C4 /* Assets.xcassets */,
-				B7262DB31D176C34009620C4 /* LaunchScreen.storyboard */,
-				B7262DB61D176C34009620C4 /* Info.plist */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -287,6 +295,7 @@
 				B7262DBB1D176C34009620C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
